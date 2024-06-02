@@ -31,7 +31,7 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = None
+    UPSTREAM_REPO = https://github.com/Jot43/videomerge04349
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError
@@ -53,5 +53,3 @@ if UPSTREAM_REPO is not None:
 
     if update.returncode == 0:
         LOGGER.info('Successfully updated with latest commit from UPSTREAM_REPO')
-    else:
-        LOGGER.warning('Something went wrong while updating, check UPSTREAM_REPO if valid or not!')

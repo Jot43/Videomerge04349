@@ -1,1 +1,1 @@
-worker: RUN python3 Dockerfile
+worker: python3 heroku.yml

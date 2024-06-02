@@ -1,1 +1,1 @@
-worker: python3 heroku.yml && python get_config.py && python bot.py
+worker: python3 bot.py && python3 get_config.py

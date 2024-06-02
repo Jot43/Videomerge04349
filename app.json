@@ -18,7 +18,7 @@
     "website": "https://github.com/TeamHMT/Auto-search-tamil-bot",
     "repository": "https://github.com/TeamHMT/Auto-search-tamil-bot",
     "env": {
-        "BOT_TOKEN": {
+        "CONFIG_FILE_URL": {
             "description": "Your bot token.",
             "required": true
         },

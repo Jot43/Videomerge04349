@@ -31,7 +31,7 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except:
-    UPSTREAM_REPO = https://github.com/Jot43/videomerge04349
+    UPSTREAM_REPO = None
 try:
     if len(UPSTREAM_BRANCH) == 0:
        raise TypeError

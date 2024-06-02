@@ -15,7 +15,7 @@ RUN apt-get -y update \
 RUN python3 -m venv venv && chmod +x venv/bin/python
 
 COPY requirements.txt .
-RUN venv/bin/python -m pip install --no-cache-dir -r requirements.txt
+RUN pip install -U pip && pip install -U -r requirements.txt
 
 COPY . .
 

@@ -53,3 +53,5 @@ if UPSTREAM_REPO is not None:
 
     if update.returncode == 0:
         LOGGER.info('Successfully updated with latest commit from UPSTREAM_REPO')
+    else:
+        LOGGER.warning('Something went wrong while updating, check UPSTREAM_REPO if valid or not!')
